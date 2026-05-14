@@ -1,5 +1,4 @@
 public class Polymorphism {
-    // TODO TASK 1: Fix the bugs in this code to pass PolymorphismTest.java
 
     /**
      * Returns the role.
@@ -7,7 +6,6 @@ public class Polymorphism {
      * @return the role of the person
      */
     public static String getStudentRole(Person p) {
-        // TODO: right now for student, it is not returning the role to be student.
         return p.getRole();
     }
 }
