@@ -42,23 +42,23 @@ completed items so far) and `Polymorphism.java` (remove the word TODO and your b
   - talk to those around you or your TA, then see the hints at the bottom of the readme if you get stuck.
   - the starter code is a simplified version of Tuesday's code demo. Think about how to use `instanceof` and casting to fix the bug in the code.
   - writing a getter method instead of accessing the file directly can be a good practice.
-- [ ] Now, we'll merge the `task_1` branch back into `main`. When merging,
+- [x] Now, we'll merge the `task_1` branch back into `main`. When merging,
 you need to be currently on the branch you are trying to merge into, so we'll first checkout the main
 branch:
   - IntelliJ: `Git -> branches... -> main -> Checkout`
   - Terminal: `git checkout main`
 Note: everything we've done has been local to our repository and have not pushed anything yet.
-- [ ] We are back on `main`, so we can now do the merge and complete our work!
+- [x] We are back on `main`, so we can now do the merge and complete our work!
   - IntelliJ: `Git -> Merge... -> task_1 -> Merge`
   - Terminal: `git merge task_1`
 
 You should now see the changes you had made are also in the `main` branch.
 
-- [ ] Now, we'll want to clean up since we are done with our `task_1` branch.
+- [x] Now, we'll want to clean up since we are done with our `task_1` branch.
   - IntelliJ: `Git -> branches... -> task_1 -> Delete`
   - Terminal: `git branch -d task_1`
 
-- [ ] Last step, we'll push our changes to the remote repository to share our work! (As we did in Lab 1.)
+- [x] Last step, we'll push our changes to the remote repository to share our work! (As we did in Lab 1.)
   - we suggest you check off this last item, commit that change (just right on the main branch is fine;
   no need to branch for this little step), then push your code. Check GitHub to ensure you can
   see your changes.
